@@ -17,11 +17,11 @@ let listAllTasks = () =>{
         }
     )
 }
-listAllTasks();
+listAllTasks();//calling function list all tasks
 //part d
 
 let deleteTask = (task) => {
-    let index = arrayOfStrings.indexOf(task);
+    let index = arrayOfStrings.indexOf(task);//finding the index of task passed to function
     if(index > -1){
         arrayOfStrings.splice(index,1);
         console.log("number of items in array after split = "+arrayOfStrings.length);//testing purposes, tells me the length of array after item is deleted
